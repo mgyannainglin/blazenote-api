@@ -12,7 +12,7 @@ const app = new Hono();
 // Define allowed origins
 const allowedOrigins = new Set([
   "http://localhost:5173",
-  "https://rapid-achiever.sxplab.com/"
+  "https://rapid-achiever.sxplab.com"
 
 ]);
 
