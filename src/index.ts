@@ -12,8 +12,6 @@ const app = new Hono();
 // Define allowed origins
 const allowedOrigins = new Set([
   "http://localhost:5173",
-  "https://api.rapid-achiever.sxplab.com",
-  "https://blazenote-api.blazehack-yannaing-lin.workers.dev",
   "https://rapid-achiever.sxplab.com/"
 
 ]);
