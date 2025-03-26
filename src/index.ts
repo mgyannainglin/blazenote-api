@@ -13,6 +13,7 @@ const app = new Hono();
 const allowedOrigins = new Set([
   "http://localhost:5173",
   "https://api.rapid-achiever.sxplab.com",
+  "https://rapid-achiever.sxplab.com'"
 ]);
 
 // https://hono.dev/docs/middleware/builtin/cors
