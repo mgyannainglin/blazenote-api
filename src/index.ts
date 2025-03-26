@@ -13,7 +13,8 @@ const app = new Hono();
 const allowedOrigins = new Set([
   "http://localhost:5173",
   "https://api.rapid-achiever.sxplab.com",
-  "https://blazenote-api.blazehack-yannaing-lin.workers.dev"
+  "https://blazenote-api.blazehack-yannaing-lin.workers.dev",
+  "https://rapid-achiever.sxplab.com/"
 
 ]);
 
